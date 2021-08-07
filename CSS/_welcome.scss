@@ -1,0 +1,44 @@
+.welcome_area{
+    text-align: center;
+    background-color: #f0f0f0;
+    padding-bottom: 100px;
+    h1{
+        font-size: 50px;
+        font-weight: normal;
+        padding-top: 60px;
+    }
+    p{
+        font-size: 16px;
+        width: 975px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 95px;
+    }
+}
+.welcome_card{
+    height: 310px;
+    width: 310px;
+    transition: 0.4s;
+    background-color: #ffffff;
+    margin: 0 auto;
+    h2{
+        font-size: 18px;
+        width: 180px;
+        margin: 0 auto;
+        font-weight: bolder;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    p{
+        font-size: 16px;
+        width: 200px;
+    }
+    i{
+        color: #fbad27;
+        margin-top: 30px;
+    }
+}
+.welcome_card:hover{
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
