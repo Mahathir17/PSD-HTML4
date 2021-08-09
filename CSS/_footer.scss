@@ -1,0 +1,40 @@
+.footer_area{
+    background: rgb(36, 36, 36);
+    color: rgb(185, 185, 185);
+    margin-top: 50px;
+    // padding-top: 30px;
+    border-start-start-radius: 30px;
+    border-start-end-radius: 30px;
+    padding: 30px 30px;
+    h2{
+        font-size: 20px;
+        font-weight: normal;
+        color: #ffffff;
+    }
+}
+.footer_about{
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(185, 185, 185);
+    }
+}
+.footer_follow{
+    ul{
+        list-style: none;
+        padding: 0;
+        li{
+            display: inline-block;
+            margin-right: 10px;
+            padding: 4px 10px;
+            background: rgb(0, 140, 255);
+            border-radius: 50%;
+            a{
+                color: white;
+            }
+        }
+    }
+}

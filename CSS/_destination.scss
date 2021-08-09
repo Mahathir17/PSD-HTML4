@@ -33,25 +33,9 @@
     }
     img:hover{
         transform: scale(1.1);
-        opacity: 0.8;
+        opacity: 0.9;
+        // filter: blur(0.7px);
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         
     }
-}
-.blog_area{
-    text-align: center;
-    h1{
-        font-size: 50px;
-        color: #4a4a4a;
-        font-weight: normal;
-    }
-    p{
-        font-size: 20px;
-        color: #616161;
-        margin-bottom: 60px;
-    }
-}
-.blog_big_img img{
-    height: 455px;
-    width: 555px;
 }

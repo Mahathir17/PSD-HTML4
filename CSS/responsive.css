@@ -1,0 +1,237 @@
+/* ============For Tab============== */
+@media only screen and (min-width: 200px) and (max-width: 991px) {
+  .header_area ul li {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0px 88px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-size: 10px;
+    background: rgba(0, 0, 0, 0.178);
+  }
+  .header_area ul {
+    display: block;
+  }
+  .header_area {
+    height: auto;
+  }
+  .header_area .hotline {
+    color: #ffffff;
+    float: none;
+    padding: 10px 0;
+    margin: 0;
+    margin-right: 0;
+    text-align: center;
+    overflow: hidden;
+    font-size: 12px;
+  }
+  .welcome_area p {
+    font-size: 16px;
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 0 20px;
+  }
+  .welcome_card {
+    margin-bottom: 20px;
+  }
+  .blog_big_img {
+    padding: 0;
+    background-color: #fff0;
+  }
+  .blog_big_img img {
+    height: 458px;
+    width: 95%;
+    margin-bottom: 20px;
+  }
+  .blog_small_card {
+    margin: 0 px;
+    margin: 0px 0px;
+    padding: 0;
+  }
+  .card_body {
+    background-color: #ffffff;
+    width: 285px;
+    margin: 0 auto;
+  }
+}
+
+/* ============For Mobile============ */
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+  .banner_area h1 {
+    text-align: center;
+    width: 65%;
+    margin-top: 43px;
+    font-size: 32px;
+  }
+  .banner_area h2 {
+    width: 175px;
+    margin-top: 15px;
+    padding: 3px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .banner_area button {
+    margin-bottom: 110px;
+    background: #fbad2782;
+    font-size: 13px;
+  }
+  .header_area {
+    background-attachment: scroll;
+    height: auto;
+  }
+  .welcome_area h1 {
+    font-size: 30px;
+    font-weight: normal;
+    padding-top: 35px;
+  }
+  .welcome_area p {
+    font-size: 14px;
+    width: auto;
+    text-align: justify;
+    margin: 0 auto;
+    margin-bottom: 95px;
+    padding: 0px 15px;
+  }
+  .welcome_card p {
+    padding: 0 5px;
+  }
+  .destination_area h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .destination_area p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .destination_area input {
+    width: auto;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .destination_card img {
+    height: 350px;
+    width: 100%;
+    margin: 5px auto;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .blog_big_img img {
+    height: 325px;
+    width: 100%;
+  }
+  .blog_area h1 {
+    font-size: 25px;
+    color: #4a4a4a;
+    font-weight: normal;
+  }
+  .blog_area p {
+    font-size: 14px;
+    color: #616161;
+    margin-bottom: 60px;
+  }
+  .card_body2 {
+    display: block;
+  }
+  .blog_area p {
+    font-size: 14px;
+    color: #616161;
+    margin-bottom: 25px;
+  }
+  .card_body2 {
+    padding: 0;
+  }
+  .blog_card2 {
+    margin-top: 20px;
+    background-color: white;
+    margin: 0 auto;
+  }
+  .card_img2 {
+    margin-bottom: 5px;
+  }
+  .card_text2 h3 {
+    margin: 10px 0;
+  }
+  .destination_card {
+    padding: 0;
+  }
+  .destination_card img {
+    height: 294px;
+    width: 95%;
+    margin: 15px auto;
+    padding-right: 21px;
+  }
+  .discount_area {
+    padding: 10px 8px;
+  }
+  .discount_area .discount_text {
+    float: none;
+  }
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .discount_area {
+    border-radius: 0;
+    border-start-end-radius: 52px;
+    border-end-start-radius: 65px;
+    width: 90%;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .discount_text h3 {
+    font-size: 12px;
+    text-align: center;
+  }
+  .my_dis_btn {
+    font-size: 12px;
+    padding: 2px 8px;
+    float: none;
+    text-align: center;
+  }
+  .discount_area .discount_button {
+    width: 100%;
+  }
+  .footer_area {
+    text-align: center;
+  }
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .destination_card img {
+    width: 89%;
+    padding-right: 0px;
+  }
+  .footer_about {
+    border-bottom: 1px dotted;
+    margin-bottom: 22px;
+  }
+  .footer_address {
+    border-bottom: 1px dotted;
+    margin-bottom: 22px;
+  }
+  .footer_contact {
+    border-bottom: 1px dotted;
+    margin-bottom: 22px;
+  }
+  .welcome_area p {
+    font-size: 13px;
+    width: auto;
+    text-align: justify;
+    margin: 0 auto;
+    margin-bottom: 95px;
+    padding: 0px 30px;
+  }
+  .welcome_card {
+    width: 85%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
